@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Pseudoclases y pseudoelementos</title>
+</head>
+
+<body>
+    <h1>Pseudoclsases y pseudoelementos</h1>
+    <h2>Pseudoclases</h2>
+    <p>
+        Las pseudoclases permiten <strong>aplicar estilos en base al estado de un elemento.</strong>
+    </p>
+    <p>
+        La sintxis es <code>selector:pseudoclase</code>. Se utilizan, por ejemplo:
+    </p>
+    <ul>
+        <li>En <a href="#">enlaces</a> segun si han sido visitados (o no), si el href coincide con el sitio actual....
+        </li>
+        <li>En funcion de si esta pasando por endima de un elemento o si está seleccionado.</li>
+        <li>En funcion del estado de un campo de formulario: deshabilitado, obligatorio, etc.</li>
+    </ul>
+
+    <form action="#" method="get">
+        <p>
+            <input type="checkbox" name="permitir" id="permitir">
+            <label for="permitir">Permitir comunicaciones</label>
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <br>
+        <input type="submit" value="Enviar" disabled>
+    </form>
+
+    <h2>Pseudoelementos</h2>
+    <p class="primer-parrafo">
+        Los pseudoelementos <strong>permiten estilar partes del elemento seleccionado</strong>.
+    </p>
+
+    <p>
+        La sintaxis es <code>selector::pseudoelemento</code>.Se utilizan , por ejemplo:
+    </p>
+
+    <ul>
+        <li>Para estilar la primera letra o línea de un elemento.</li>
+        <li>Para añadir decoración antes o despues de un elemento.</li>
+    </ul>
+</body>
+
+</html>

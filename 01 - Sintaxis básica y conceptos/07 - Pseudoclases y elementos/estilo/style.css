@@ -1,0 +1,43 @@
+a:hover,
+li:hover {
+    color: red;
+}
+
+input:disabled {
+    background-color: aqua;
+}
+
+input:invalid {
+    border: 1px solid red;
+    color: red;
+}
+
+input:required {
+    background-color: khaki;
+}
+
+input:checked+label {
+    color: green;
+}
+
+input:not(:checked)+label {
+    background-color: blue;
+}
+
+/*Elementos*/
+p::first-letter {
+    color: darkgoldenrod;
+}
+
+.primer-parrafo::first-line {
+    background-color: aqua;
+}
+
+li::before {
+    content: '🗻';
+}
+
+.primer-parrafo::after {
+    content: '[Actualizado]';
+    color: red;
+}

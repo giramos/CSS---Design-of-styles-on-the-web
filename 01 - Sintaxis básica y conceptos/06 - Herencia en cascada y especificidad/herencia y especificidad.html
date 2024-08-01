@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Herencia en cascada y especificidad</title>
+</head>
+<body>
+    <h1>Conceptos</h1>
+
+    <h2>Herencia</h2>
+    <p>La herencia permite que los elementos anidados copien declaraciones de los elementos que las contienene.</p>
+
+    <h2>Cascada</h2>
+    <p>La cascada implica que si dan dos declaraciones iguales para el mismo elemento, se aplicará la última encontrada. Es decir, la de mas abajo.</p>
+
+    <h2 class="punteado">Especificidad</h2>
+    <p>La especificidad es algoritmo que ultilizan los navegadores para deciri que declaraciones son mas relevantes para un determinado elemento.</p>
+    <p>Aplican aqulellas declaraciones cuyas reglas tengan mayor especificidad. Para hacer el calculo <strong>utilizan tres columnas: I-C-E</strong></p>
+
+    <ol>
+        <li>Por cada ID que se encuentre en el selector de la regla, se incrementa en un 1 el valor de I</li>
+        <li>Por cada clase, atributo y pseudoclase que se encuentra en el selector de la rgla, se incrementa en un 1 el valor de C.</li>
+        <li>Por cada elemento y pseudoelemento que se encuentre en el selector de la regla, se incrementa en un 1 el valor de E.</li>
+    </ol>
+</body>
+</html>

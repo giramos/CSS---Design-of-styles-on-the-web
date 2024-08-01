@@ -1,0 +1,19 @@
+/* * {
+    color: red;
+} */
+
+[type] {
+    color: blueviolet;
+}
+
+input[type="text"] {
+    border: 1px solid red;
+}
+
+input[type*="te"] {
+    background-color: khaki;
+}
+
+input[type^="te"] {
+    font-size: 20px;
+}

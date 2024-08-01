@@ -1,0 +1,30 @@
+body{
+    color: red;
+}
+
+/*
+    I  C  E
+    
+
+
+*/
+
+/* 0 1 0 */
+.punteado {
+    border: 1px dotted black;
+}
+
+/* 0 1 1 */
+h2.punteado {
+    border: 4px dotted black;
+}
+
+/* 0 0 2 */
+body h2{
+    border: none;
+}
+
+/* 0 0 1 */
+h2{
+    border: 1px solid red;
+}
