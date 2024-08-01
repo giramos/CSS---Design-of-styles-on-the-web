@@ -1,0 +1,8 @@
+
+/* Comienza la regla de CSS */
+selector(es) {
+    /* Declaracion */
+    color: red;
+    /* propiedad: valor; */
+
+} /* Finaliza la regla */
