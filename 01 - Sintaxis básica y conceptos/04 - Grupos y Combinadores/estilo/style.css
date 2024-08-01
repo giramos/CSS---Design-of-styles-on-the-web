@@ -1,0 +1,30 @@
+h1,
+h2,
+.resaltado {
+    color: red;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.resaltado {
+    background-color: black;
+}
+
+/* cualquier p anidado en un section */
+section p {
+    background-color: khaki;
+}
+
+/* cualquier p que sea hijo directo de un section
+*/
+section > p {
+    color: deeppink;
+    font-weight: bold;
+}
+
+/* El primer p que este justo despues de un h2 */
+h2 + p{
+    font-size: 40px;
+}
