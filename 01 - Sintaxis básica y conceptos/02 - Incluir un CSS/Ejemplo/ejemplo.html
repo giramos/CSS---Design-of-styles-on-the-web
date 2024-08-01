@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Básico</title>
+
+    <!-- Metodo 1: CSS interno etiqueta style -->
+    <!-- Regular opción: en cuanto tuvieras que hacer un cambio en un html determinado tendrias que modificar -->
+    <style>
+        h1 {
+            color: chocolate;
+        }
+    </style>
+
+    <!-- Metodo 2: CSS externo etiqueta link -->
+    <!-- Buena opción: SEPARACION DE INTERES -->
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <!-- Metodo 3: CSS en línea con atributo style -->
+    <!-- Mala opción: es poco reutlizable, poco mantenible
+        Cuando usar: cuando trabajamos con javascript y no podemos usar el css 
+    -->
+    <h1 style="color: deeppink;">Aplicando estilo con CSS</h1>
+</body>
+
+</html>
